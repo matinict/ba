@@ -39,7 +39,7 @@
     sudo dumpe2fs /dev/sda2 | grep -i "block count"
     sudo blockdev --getsize64 /dev/sda2
 
-  ## Create Bash [bau.sh](BatchUpdate)
+  ## Create Bash [BatchUpdate](bau.sh)
     sudo nano bau.sh
     
     #!/bin/bash
